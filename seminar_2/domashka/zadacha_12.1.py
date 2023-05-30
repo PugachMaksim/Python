@@ -16,3 +16,4 @@ if D > 0:
     print(round(X), round(Y))
 else:
     print("Это не квадратное уравнение")
+
