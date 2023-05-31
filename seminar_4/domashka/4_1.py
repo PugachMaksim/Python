@@ -7,7 +7,6 @@
 from random import randint
 array1 = []
 array2 = []
-array =[]
 n = int(input())
 m = int(input())
 for i in range(n):
