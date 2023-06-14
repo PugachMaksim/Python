@@ -13,6 +13,16 @@ def rez(a, b):
     return 1 + 1 + rez(a-1, b-1) # не понял как, но считает)
 print(rez(A, B))
 
+# от преподавателя
+A = int(input())
+B = int(input())
+def rez(a, b):
+    if b == 0:
+        return a
+    return 1 + 1 + rez(a-1, b-1) # не понял как, но считает)
+print(rez(A, B))
+
+
 #_______________________________________________________________________
 def rez(a, b):
     if b == 0:
